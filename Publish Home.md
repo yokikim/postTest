@@ -1,5 +1,7 @@
 ---
 share: true
+draft: "false"
+title: Publish Home
 ---
 Hello World
 
