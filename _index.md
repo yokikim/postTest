@@ -1,7 +1,7 @@
-+++
-date = '2024-12-22T15:11:08+09:00'
-draft = false
-title = 'Home'
-+++
+---
+title: 'Home'
+date: 2024-12-24T17:17:38+09:00
+draft: true
+---
 
-Home
+Home page

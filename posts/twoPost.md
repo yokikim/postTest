@@ -1,7 +1,7 @@
-+++
-date = '2024-12-22T15:11:37+09:00'
-draft = false
-title = 'TwoPost'
-+++
+---
+title: 'TwoPost'
+date: 2024-12-24T17:18:26+09:00
+draft: true
+---
 
-second post
+two post
