@@ -10,6 +10,6 @@ jobs:
       - name: Dispatch update to Git Blog Project
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.GITHUB_TOKENS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           repository: yokikim/blog
           event-type: update-submodule
