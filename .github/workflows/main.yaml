@@ -9,6 +9,7 @@ on:
 jobs:
   dispatch:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: Dispatch update to Git Blog Project
         uses: peter-evans/repository-dispatch@v3
