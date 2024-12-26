@@ -6,8 +6,11 @@ on:
   pull_request:
     branches:
       - main
+
 jobs:
   dispatch:
+    environment:
+      name: github-actions
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
